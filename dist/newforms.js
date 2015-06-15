@@ -767,7 +767,7 @@ module.exports = CheckboxFieldRenderer
 var is = require('isomorph/is')
 var object = require('isomorph/object')
 // var React = (typeof window !== "undefined" ? window.React : typeof global !== "undefined" ? global.React : null)
-
+var React = require('react')
 var Widget = require('./Widget')
 
 function defaultCheckTest(value) {
